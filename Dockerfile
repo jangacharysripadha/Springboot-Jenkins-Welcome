@@ -1,7 +1,7 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-alpine
 
 WORKDIR /app
 
-COPY target/springboot-app.jar app.jar
+COPY target/springboot-app.jar springboot-app
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "springboot-app.jar"]
