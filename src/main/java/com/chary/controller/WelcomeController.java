@@ -9,7 +9,14 @@ public class WelcomeController {
 	@GetMapping("/welcome")
 	public String getWelcome()
 	{
-		return "from Spring Boot + Docker + Jenkins!";
+		return "welcome to Spring Boot + Docker + Jenkins!";
+	}
+	
+	
+	@GetMapping("/message")
+	public String getMsg()
+	{
+		return "Hi Chary how are you...............";
 	}
 
 }
