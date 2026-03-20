@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-jdk-alpine
 
 COPY target/springboot-app.jar springboot-app
 
