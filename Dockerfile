@@ -1,6 +1,6 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-alpine
 
-COPY target/springboot-app.jar springboot-app.jar
+ADD target/springboot-app.jar springboot-app.jar
 
 EXPOSE 5555
 
