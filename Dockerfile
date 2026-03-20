@@ -1,4 +1,4 @@
-FROM openjdk:17-eclipse-temurin
+FROM openjdk:8
 
 COPY target/springboot-app.jar springboot-app.jar
 
