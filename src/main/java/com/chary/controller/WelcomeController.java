@@ -24,5 +24,11 @@ public class WelcomeController {
 	{
 		return "welcome to Springboot Jenkins Pipeline";
 	}
+	
+	@GetMapping("/greet")
+	public String getgreetin()
+	{
+		return "welocme to jenkins ..............................";
+	}
 
 }
