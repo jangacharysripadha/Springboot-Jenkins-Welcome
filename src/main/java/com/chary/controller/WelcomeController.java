@@ -18,5 +18,11 @@ public class WelcomeController {
 	{
 		return "Hi Chary how are you...............";
 	}
+	
+	@GetMapping("/home")
+	public String getHome()
+	{
+		return "welcome to Springboot Jenkins Pipeline";
+	}
 
 }
